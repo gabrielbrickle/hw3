@@ -1,2 +1,18 @@
 body {
-  background-color: red; }
+  background-color: blue;
+ }
+
+/*Footer styling*/
+
+footer{
+  width: 100%;
+  display: block;
+  background-color: rgba(51,127,60,1);
+  height: 75px;
+}
+
+footer ul {
+  display: inline-block;
+  margin: 0;
+  margin-left: 55%;
+}
