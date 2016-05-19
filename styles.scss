@@ -1,7 +1,8 @@
-
+body {
+  font-family: 'Dosis', sans-serif;
+}
 
 header {
-  font-family: 'Dosis', sans-serif;
   background-image: url('http://www.mrwallpaper.com/wallpapers/Ocean-Waves.jpg');
   margin: auto;
   width: 100%;
@@ -11,11 +12,17 @@ header {
 
 }
 
+.overlay {
+   background:red;
+   opacity:.5;
+}
+
 .row1col2 ul {
   display: inline-block;
   list-style-type: none;
   position: relative;
-top: -70px;
+  top: -70px;
+  font-weight: bold;
 }
 .row1col2 li {
   display: inline-block;
@@ -37,11 +44,13 @@ margin: 15px;
 
 .row1col1 li {
   display: inline-block;
+  font-weight: bold;
 }
 
 .row1col1 li img {
   position: relative;
-top: 11px;
+  top: 11px;
+  font-weight: bold;
 }
 
 .row1col2 li img {
@@ -51,17 +60,14 @@ top: 11px;
 }
 
 .row2 {
-  text-align: center;
-  font-weight: bold;
-  text-align: center;
-  font-weight: bold;
-  font-size: 128px;
-  color: #FFF;
-  position: relative;
-  left: 97px;
-
-    top: 15px;
-}
+    text-align: center;
+    font-weight: normal;
+    font-size: 128px;
+    color: #FFF;
+    position: relative;
+    left: 151px;
+    top: 61px;
+    }
 
 .ladyonboard img {
   width: 284px;
@@ -69,16 +75,18 @@ top: 11px;
 }
 
 .row2 h6 {
-  font-size: 18px;
-      color: black;
-      margin: -15px;
-position: relative;
-right: 104px;
+    font-size: 18px;
+    color: black;
+    margin: -15px;
+  position: relative;
+  right: 104px;
+  font-weight: normal;
 }
 
 .row3col1 {
   width: 60%;
       margin: 150px;
+      float: left;
 }
 
 .row3col2 {
@@ -94,13 +102,74 @@ left: -44px;
 }
 
 #columnleft {
-  width: 65%;
-  float: left;
+  margin-right: 645px;
+  margin-top: 50px;
+  margin-left: 143px;
+  font-size: 15px;
+}
+
+#col1bottom {
+  border-left: solid;
+    padding-left: 15px;
+    border-width: 1px;
+    border-color: #cacaca;
+    color: #4E93FF;
+    font-weight: lighter;
+
+}
+
+#col1top {
+  font-size: 43px;
 }
 
 #columnright {
-  float: right;
-  width: 29%;
+
+      float: right;
+      width: 29%;
+      position: relative;
+      bottom: 635px;
+      right: 150px;
+      text-align: center;
+
+}
+
+#columnright li {
+  display: inline-block;
+list-style-type: none;
+  color: #cacaca;
+}
+
+#columnright p {
+    font-size: 13px;
+    text-align: left;
+    float: left;
+    margin-top: -17px;
+}
+
+#columnright h4 {
+  color: #4E93FF;
+font-weight: lighter;
+font-size: 19px;
+margin-top: 1px;
+margin-bottom: -9px;
+}
+
+#columnright h5 {
+  color: #4E93FF;
+font-weight: bold;
+font-size: 18px;
+float: left;
+}
+
+.caption h3 {
+  margin-top: -1px;
+text-decoration: underline;
+color: #cacaca;
+position: relative;
+left: 91px;
+font-size: 13px;
+font-family: sans-serif;
+font-weight: lighter;
 }
 
 .circularpic img {
@@ -119,10 +188,10 @@ height: 37%;
   width: 29%;
 }
 
-
-#footer {
-  float: bottom;
-}
+//
+// #footer {
+//   float: bottom;
+// }
 
 
 .row3col1 p {
@@ -130,29 +199,89 @@ height: 37%;
     right: 15px;
     top: -94px;
 }
-/*Footer styling*/
 
-footer{
- width: 100%;
-display: block;
- background-color: blue;
-height: 75px;
+.row4 h2  {
+  text-align: center;
+  margin-top: -606px;
+  font-size: 59px;
+  border-top: solid;
+  border-width: 1px;
+  padding-top: 42px;
+  padding-left: 50px;
+  border-color: #cacaca;
+
+}
+
+.row4 {
+  display: inline-block;
+  color: #2E3E7F;
+
+}
+
+.row4 img {
+  display: inline-block;
+  width: 24.5%;
+  height: 291px;
+padding: 0;
+}
+
+.row4 ul {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+top: -79px;
+}
+
+.row4 li {
+  display: inline-block;
+
+}
+
+
+footer  {
+  background-color: #2E3E7F;
+  width: 100%;
+  height: 147px;
+  margin-top: -54px;
 }
 
 footer ul {
-display: inline-block;
-margin: 0;
- margin-left: 55%;
+  margin-top: 107px;
+    margin-left: 223px;
+    display: inline-block;
 }
 
-footer h6 {
-color: #fff;
-margin-left: 10%;
- position: relative;
-  display: inline-block;
+footer li {
+  padding-right: 0;
 }
 
- footer li {
-   display: inline-block;
-   height: 75px;
+ .footercolleft h6 {
+   color: #cacaca;
+       margin-left: 214px;
+       position: relative;
+       top: -22px;
+       font-size: 15px;
+ }
+
+.footercolleft img{
+  width: 55px;
+  height: 62px;
+  margin-left: 137px;
+  position: relative;
+  top: 55px;
+  right: -13px;
+
+}
+ .footercolright ul {
+   float: right;
+   margin-top: 6px;
+   color: #cacaca;
+   margin-right: 84px;
+   font-size: 14px;
+ }
+
+ .footercolright li {
+   padding-right: 10px;
+   border-right: solid 1px;
+   border-color: #cacaca;
  }
